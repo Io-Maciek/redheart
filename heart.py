@@ -60,7 +60,6 @@ for i in range(RANGE):
     if not YOU_SEEN and i > (RANGE // 2):
         YOU_SEEN = True
         print_write("YOU", -69, -350, "black")
-    print(i)
 
 update()
 done()
